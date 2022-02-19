@@ -14,3 +14,4 @@ while first <= last:
     else: 
        last = midpoint - 1          # if the value is greater than the midpoint, then we discard the values after the midpoint, and redifne last to point to the value prior to midpoint, which is midpoint - 1
 
+return None 

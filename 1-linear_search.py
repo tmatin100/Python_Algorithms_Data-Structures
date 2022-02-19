@@ -1,3 +1,5 @@
+# Linear Search Example
+
 def linear_search(list, target):
     """ Returns the index position of the traget if found, else returns None
     """
@@ -5,7 +7,7 @@ def linear_search(list, target):
       if list[i] == target: 
         return i 
     return None 
-    
+
 """ The code can be cleaned up a bit by using the enumerate function on the list.
 def linear_search(lst, target):
     for index, value in enumerate(lst):
