@@ -5,7 +5,15 @@ def linear_search(list, target):
       if list[i] == target: 
         return i 
     return None 
-  
+    
+""" The code can be cleaned up a bit by using the enumerate function on the list.
+def linear_search(lst, target):
+    for index, value in enumerate(lst):
+        if value == target:
+            return index
+    return -1    
+"""
+ 
 numbers = [1,2,3,4,5,6,7,8,9,10]
 
 def varify(index): 
@@ -17,6 +25,8 @@ def varify(index):
 result = linear_search(numbers, 12)
 
 varify(result)
+
+
 
 
 
