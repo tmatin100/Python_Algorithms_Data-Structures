@@ -1,13 +1,5 @@
 # Linear Search Example
 
-#Algorithm Gideline
-"""
-The steps in the algorithm need to be in a very specific order. 
-The steps also need to be distinct
-The algorith m should produce a resut
-The algorithm should complete in a finite ammount of time 
-"""
-
 def linear_search(list, target):
     """ Returns the index position of the traget if found, else returns None
     """
